@@ -31,7 +31,6 @@ public class HexGrid : MonoBehaviour
         yield return StartCoroutine(GenerateTriangles());
         yield return StartCoroutine(MakeQuadsFromTriangles());
         yield return StartCoroutine(SplitPolygons());
-        //yield return StartCoroutine(SplitTriangles());
         yield return StartCoroutine(RelaxVertices());
     }
     
